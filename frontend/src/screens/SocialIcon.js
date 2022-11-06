@@ -13,12 +13,7 @@ const SocialIcon = () => {
         <a href="google" className="google">
           <i className="fa fa-google"></i>
         </a>
-        <a href="linkedin" className="linkedin">
-          <i className="fa fa-linkedin"></i>
-        </a>
-        <a href="youtube" className="youtube">
-          <i className="fa fa-youtube"></i>
-        </a>
+        
       </div>
     </>
   );

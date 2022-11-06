@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import img1 from '../images/3.png';
+import img2 from '../images/cover.jpg';
+import img3 from '../images/1658b1dabcd7551c93c24ea4e62d53ed.jpg';
 import './Carousel.css';
 
 const Carousel1 = () => {
@@ -10,7 +12,7 @@ const Carousel1 = () => {
     setIndex(selectedIndex);
   };
   return (
-    <div>
+    <div className='container-fluid'>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
@@ -26,7 +28,7 @@ const Carousel1 = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 carouselImg"
-            src={img1}
+            src={img2}
             alt="Second slide"
           />
 
@@ -38,7 +40,7 @@ const Carousel1 = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 carouselImg"
-            src={img1}
+            src={img3}
             alt="Third slide"
           />
 

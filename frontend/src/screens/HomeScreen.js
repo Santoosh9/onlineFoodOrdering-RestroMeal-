@@ -10,8 +10,6 @@ import MessageBox from '../components/MessageBox';
 import Carousel1 from './Carousel1';
 import { Container } from 'react-bootstrap';
 
-// import data from '../data';
-
 const reducer = (state, action) => {
   switch (action.type) {
     case 'FETCH_REQUEST':
